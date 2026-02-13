@@ -5,7 +5,10 @@ Aquí se organizan los contenidos tal y como lo vemos en clases.
 
 ---
 
-### 📂 /proyecto1
+### 📂 proyecto1
 Primera web con el manejo de etiquetas básicas
 - index.html -> etiquetas básicas de texto
 - CSS -> etiqueta de imagen
+
+### 📂 proyecto2
+Segundo proyecto donde veremos CSS básico y estructura semántica de una página web
