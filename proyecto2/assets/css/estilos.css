@@ -1,0 +1,22 @@
+body{
+    background-color: red;
+}
+header{
+    background-color: blue;
+}
+
+main{
+    background-color: yellow;
+}
+
+footer{
+    background-color: green;
+}
+
+h2{
+    background-color: purple;
+}
+
+p{
+    background-color: brown;
+}
