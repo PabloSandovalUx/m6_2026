@@ -12,3 +12,5 @@ Primera web con el manejo de etiquetas básicas
 
 ### 📂 proyecto2
 Segundo proyecto donde veremos CSS básico y estructura semántica de una página web
+- index.html -> Estructura básica de contenidos de una página
+- estilos.css -> Hoja con los estilos de diseño básico
