@@ -57,6 +57,7 @@ h3{
 
 p {
     margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .tituloFoto {
@@ -68,4 +69,13 @@ p {
 img{
     width: 50%;
     margin-left: 25%;
+}
+
+a{
+    background-color: red;
+    padding: 16px 48px;
+    color: white;
+    border-radius: 40px;
+    margin-left: 35%;
+    text-decoration: none;
 }
