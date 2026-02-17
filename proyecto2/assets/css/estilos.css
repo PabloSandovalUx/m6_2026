@@ -1,27 +1,71 @@
-/* 
-etiqueta {
+/* etiqueta {
     propiedad: valor;
-}
+} */
+/* 
+    background-color: color del fondo;
+    color: color del texto;
+
+    width: define el ancho del elemento;
+    height: define alto del elemento;
+
+    padding: margen interior;
+    margin: margen exterior;
+
+    font-size: Tamaño del texto;
+    font-weight: Peso tipográfico;
+
+    text-align: alineación del párrafo;
  */
-body{
-    background-color: red;
-}
-header{
-    background-color: blue;
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-main{
-    background-color: yellow;
+body {
+    background-color: #F9F9F9;
 }
 
-footer{
+header {
+    background-color: #0f71d7;
+    color:white;
+    padding: 20px;
+}
+
+footer {
     background-color: green;
+    color: greenyellow;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-h2{
-    background-color: purple;
+h2 {
+    /* background-color: purple; */
+    padding: 30px;
+    padding-left: 70px;
+    color: coral;
+    font-size: 60px;
+    font-weight: 400;
 }
 
-p{
-    background-color: brown;
+h3{
+    color: blue;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+p {
+    margin-top: 50px;
+}
+
+.tituloFoto {
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding: 0 100px;
+}
+
+img{
+    width: 50%;
+    margin-left: 25%;
 }
