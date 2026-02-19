@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* siempre formatiar se aplica a toda la página  */
+
+
+body {
+    background-color: skyblue;
+}
+
+header {
+    background-color: pink;
+}
+
+main {
+    background-color: #d1d1d1;
+}
+
+h3{
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    padding: 48px;
+    text-transform: uppercase;
+}
+
+img{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 70px;
+}
+
+p{
+    margin-bottom: 30px;
+    width: 90%;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.justDer{
+    text-align: right;
+}
+
+footer {
+    background-color: greenyellow;
+}
+
+
+.cita{
+    font-style: italic;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 100;
+}
