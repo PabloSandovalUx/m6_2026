@@ -8,6 +8,11 @@ body {
     background-color: #fafafa;
 }
 
+img{
+    height: 100%;
+    width: auto;
+}
+
 header {
     height: 80px;
     background-color: #D9D9D9;
@@ -41,6 +46,11 @@ header {
     align-items: center;
     gap: 16px;
     box-shadow: -8px 8px 0 black;
+    transition: box-shadow .3s ease-out;
+}
+
+.sec_metricas article:hover{
+    box-shadow: -12px 12px 0 black;
 }
 
 .sec_metricas .imagen {
@@ -90,6 +100,11 @@ header {
     border-radius: 12px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .4s ease-out;
+}
+
+.sec_visitas .contCards .card:hover{
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .sec_visitas .contCards .card .imagen {
@@ -121,18 +136,24 @@ header {
 .sec_imagenes .contImg {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
 .sec_imagenes .contImg div {
-    flex: 1;
-    height: 150px;
+    width: 32%;
+    height: 300px;
     border-radius: 16px;
-    background-color: yellow;
+    background-color: peru;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.sec_footer{
+.sec_footer {
     padding: 64px;
     background-color: #333333;
     color: white;
@@ -144,28 +165,83 @@ header {
     gap: 16px;
 }
 
-.sec_footer article{
+.sec_footer article {
     flex: 1;
     padding-left: 8px;
 }
 
-.sec_footer ul{
+.sec_footer ul {
     list-style: none;
 }
 
-.sec_footer a{
+.sec_footer a {
     color: white;
     text-decoration: none;
     font-weight: 300;
+    transition: all .4s ease-out;
 }
 
-.sec_footer h4{
+.sec_footer a:hover{
+    padding-left: 8px;
+    color: red;
+}
+
+.sec_footer h4 {
     margin-bottom: 16px;
     font-size: 24px;
     text-align: start;
 }
 
-.lineaIzq{
+.lineaIzq {
     border-left: 5px solid red;
 }
 
+/* Pantalla tablet */
+@media (max-width: 992px) {
+    .sec_metricas {
+        flex-wrap: wrap;
+        gap: 0;
+        row-gap: 32px;
+        justify-content: space-around;
+    }
+
+    .sec_metricas article {
+        flex: none;
+        width: 45%;
+    }
+
+    .sec_visitas .contCards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .sec_visitas .contCards .card {
+        flex: none;
+        width: 48%;
+    }
+
+    .sec_imagenes .contImg div {
+        width: 48%;
+    }
+}
+
+/* Pantalla Mobile */
+@media (max-width: 576px) {
+    .sec_visitas .contCards {
+        flex-direction: column;
+    }
+
+    .sec_visitas .contCards .card {
+        width: 80%;
+    }
+
+    .sec_footer {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .sec_footer article {
+        flex: none;
+        width: 48%;
+    }
+}
