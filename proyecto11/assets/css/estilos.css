@@ -1,0 +1,59 @@
+:root{
+    --grisOscuro-100: #565656;
+    --grisOscuro-400: #343434;
+    --grisOscuro-700: #2b2b2b;
+
+    --grisClaro-100: #fefefe;
+    --grisClaro-400: #FCFCFC;
+    --grisClaro-700: #f5f6f7;
+
+    --colorPrincipal-100: #d4eec8;
+    --colorPrincipal-400: #bfe6ad;
+    --colorPrincipal-700: #9fc090;
+}
+
+body{
+    background-color: var(--grisOscuro-400);
+    color: var(--grisClaro-400);
+}
+
+/* BARRA DE NAVEGACIÓN */
+.navbar-brand,
+.nav-link{
+    color: var(--grisClaro-400);
+}
+
+.navbar-brand:hover{
+    color: var(--colorPrincipal-400);
+}
+
+.nav-link:hover{
+    color: var(--colorPrincipal-100);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--colorPrincipal-700);
+}
+
+.navbar-toggler{
+    border: 1px solid var(--grisClaro-400);
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.iconoMenu{
+    color: var(--grisClaro-400);
+}
+
+.bg-btnPrincipal{
+    background-color: var(--colorPrincipal-400);
+    color: var(--grisOscuro-400);
+}
+
+.bg-btnPrincipal:hover{
+    background-color: var(--colorPrincipal-700);
+    color: var(--grisOscuro-400);
+}
+

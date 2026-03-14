@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Elementos que no se tocan -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!--
+            Editables según el proyecto
+    -->
+    <title>Portafolio Pablo Sandoval</title>
+    <!-- imagen que aparece en la pestaña del navegador -->
+    <link rel="shortcut icon" href="assets/img/banner.jpg" type="image/x-icon">
+    <!-- Descripción del sitio (la que aparece en google) -->
+    <meta name="description"
+        content="Soy un texto editable que se ve en los buscadores (el que aparece abajo de los link)">
+    <!-- Palabras claves para que encuentren nuestra página -->
+    <meta name="keywords" content="palabras, claves, para, los, buscadores">
+    <!-- Editables no obligatorios -->
+    <!-- Lo que aparece al compartir por whatsapp -->
+    <meta property="og:title" content="Title" />
+    <meta property="og:description" content="Descripción" />
+    <meta property="og:image" content="Imagen" />
+
+
+    <!-- links de google Fonts (3) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Link de Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Link de nuestro CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">
+                    Bootstrap
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list iconoMenu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Opción 1</a>
+                        <a class="nav-link" href="#">Opción 2</a>
+                        <a class="nav-link" href="#">Opción 3</a>
+                        <a class="nav-link" href="#">Opción 4</a>
+                        <a class="nav-link" href="#">Opción 5</a>
+                        <a class="btn rounded-pill px-3 bg-btnPrincipal" href="#">Opción 5</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- sección hero -->
+        <section>
+            <div class="row">
+                <article class="col-11 mx-auto col-md-7 bg-primary">TEXTO</article>
+                <article class="col-11 mx-auto col-md-5 bg-danger">IMAGEN</article>
+                <!-- íconos -->
+                <div class="d-flex col-12 px-auto justify-content-center gap-4">
+                    <i class="bi bi-facebook fs-3"></i>
+                    <i class="bi bi-instagram fs-3"></i>
+                    <i class="bi bi-linkedin fs-3"></i>
+                    <i class="bi bi-twitter-x fs-3"></i>
+                    <i class="bi bi-whatsapp fs-3"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACERCA DE MI -->
+        <section>
+            <div class="row">
+                <article class="col-11 mx-auto col-md-5 bg-danger">IMAGEN</article>
+                <article class="col-11 mx-auto col-md-7 bg-primary">TEXTO</article>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section>
+            <h2 class="text-center">Servicios</h2>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus optio cupiditate dignissimos nostrum
+                nulla aspernatur mollitia aliquam tempora veniam, fugit fugiat quo nemo modi ipsa temporibus. Vel
+                nesciunt beatae consequuntur.</p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="container">Footer</footer>
+
+
+    <!-- JS de Bootstrap se necesita para su funcionamiento -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
