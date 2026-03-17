@@ -99,6 +99,10 @@ body {
     font-weight: 600;
 }
 
+.btnRelleno:hover{
+    background-color: var(--colorPrincipal-700);
+}
+
 .btnOutline {
     border: 1px solid var(--colorPrincipal-400);
     color: var(--colorPrincipal-400);
@@ -108,10 +112,29 @@ body {
     font-weight: 600;
 }
 
-/* [ ] Hover de los btn */
-/* [ ] Separar los íconos de RRSS */
-/* [ ] Hover de los íconos */
+.btnOutline:hover{
+    border: 1px solid var(--colorPrincipal-700);
+    color: var(--colorPrincipal-100);
+    background-color: var(--grisOscuro-700);
+}
 
+.contenedorIconos i:hover{
+    color: var(--colorPrincipal-400);
+}
+
+.contenedorProgresBar h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.progress{
+    height: 8px;
+    background-color: var(--grisOscuro-100);
+}
+
+.progress-bar{
+    background-color: var(--colorPrincipal-700);
+}
 
 /* Pantalla escritorio */
 @media (min-width: 992px) {
